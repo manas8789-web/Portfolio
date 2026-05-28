@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manash Kumar | Frontend Developer & Data Analyst</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">M</span>
+                <span class="logo-text">Manash</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span>Available for Hire</span>
+                </div>
+                <h1 class="hero-title">
+                    Hello, I'm <span class="highlight">Manash Kumar</span>
+                </h1>
+                <div class="hero-typing">
+                    <span id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-desc">
+                    I'm a passionate <strong>Frontend Developer</strong> and <strong>Data Analyst</strong> based in India. 
+                    I create stunning web experiences and transform complex data into actionable insights.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Hire Me</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline">
+                        <span>View Work</span>
+                        <i class="fas fa-eye"></i>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/manas8789-web" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/manash-kumar-1a4160352" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- <a href="https://twitter.com" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://dribbble.com" target="_blank" class="social-link"><i class="fab fa-dribbble"></i></a> -->
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="image-wrapper">
+                    <div class="image-bg"></div>
+                    <img src="images/manash .jpeg" alt="Manash Kumar" class="profile-img">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>Frontend Dev</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Data Analyst</span>
+                    </div>
+                    <!-- <div class="floating-card card-3">
+                        <i class="fas fa-award"></i>
+                        <span>1+ Years</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="0">
+                <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+                <div class="stat-number" data-target="2">0</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+                <div class="stat-number" data-target="5">0</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="stat-icon"><i class="fas fa-users"></i></div>
+                <div class="stat-number" data-target="10">0</div>
+                <div class="stat-label">Happy Clients</div>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+                <div class="stat-number" data-target="10">0</div>
+                <div class="stat-label">Certificates</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">About Me</span>
+                <h2 class="section-title">I am Professional <span class="highlight">Frontend Developer</span> & <span class="highlight">Data Analyst</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-img-wrapper">
+                        <img src="images/developer.png" alt="About Manash">
+                        <div class="experience-badge">
+                            <span class="exp-years">1+</span>
+                            <span class="exp-text">Years of<br>Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info" data-aos="fade-left">
+                    <h3>Crafting Digital Excellence with Data-Driven Insights</h3>
+                    <p>I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences that leave lasting impressions.</p>
+                    <p>As a Data Analyst, I transform raw data into meaningful insights using Python, SQL, and visualization tools. I help businesses make informed decisions through comprehensive data analysis and reporting.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-user"></i>
+                            <span><strong>Name:</strong> Manash Kumar</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span><strong>Email:</strong> manash804454@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <span><strong>Phone:</strong> +91 81024 98071</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span><strong>Location:</strong> India(Bihar)</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#portfolio" class="btn btn-primary">My Projects</a>
+                        <a href="#" class="btn btn-outline" onclick="downloadCV()">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">What I Do</span>
+                <h2 class="section-title">My <span class="highlight">Services</span></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, high-performance websites using modern technologies like React, Vue, and Next.js with clean, maintainable code.</p>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Analysis</h3>
+                    <p>Transforming raw data into actionable insights using Python, SQL, Excel, and visualization tools like Tableau and Power BI.</p>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Creating mobile-first, pixel-perfect designs that work seamlessly across all devices and screen sizes.</p>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <p>Designing and optimizing databases, writing complex SQL queries, and ensuring data integrity and security.</p>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive and visually appealing interfaces that enhance user engagement and satisfaction.</p>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Machine Learning</h3>
+                    <p>Implementing predictive models and data-driven solutions using Python libraries like scikit-learn and TensorFlow.</p>
+                    <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Expertise</span>
+                <h2 class="section-title">Technical <span class="highlight">Skills</span></h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category" data-aos="fade-right">
+                    <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML5 & CSS3</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript (ES6+)</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                    </div>
+                    <!-- <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React.js</span>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Vue.js</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                    </div> -->
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Tailwind CSS</span>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
+                    </div>
+                </div>
+                <div class="skills-category" data-aos="fade-left">
+                    <h3><i class="fas fa-chart-pie"></i> Data Analysis</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Python (Pandas, NumPy)</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">SQL & Database</span>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Power BI / Tableau</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Excel / Google Sheets</span>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Machine Learning</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-stack" data-aos="fade-up">
+                <h3>Tools & Technologies</h3>
+                <div class="tech-grid">
+                    <div class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                    <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                    <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                    <!-- <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+                    <div class="tech-item"><i class="fab fa-vuejs"></i><span>Vue</span></div>
+                    <div class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></div> -->
+                    <div class="tech-item"><i class="fab fa-python"></i><span>Python</span></div>
+                    <div class="tech-item"><i class="fas fa-database"></i><span>SQL</span></div>
+                    <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                    <div class="tech-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+                    <div class="tech-item"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+                    <div class="tech-item"><i class="fas fa-chart-area"></i><span>Tableau</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">My Work</span>
+                <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            </div>
+            <div class="portfolio-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Dev</button>
+                <button class="filter-btn" data-filter="data">Data Analysis</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="0">
+                    <div class="portfolio-card">
+                        <img src="images/project1.png" alt="worker-hiring">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Web Development</span>
+                            <h3>Worker Hiring</h3>
+                            <p>Full-stack worker hiring platform with real-time analytics</p>
+                            <div class="portfolio-links">
+                                <a href="https://demo.mimpatna.com/live_worker/" class="portfolio-link" onclick="showProjectDetails('Worker Hiring', 'A comprehensive worker hiring platform built with HTML,CSS, and JavaScript featuring real-time job matching, candidate management, and employer analytics.')">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://demo.mimpatna.com/live_worker/" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <img src="images/project2.png" alt="College website">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Web Development</span>
+                            <h3>College Website</h3>
+                            <p>Responsive website for a local college</p>
+                            <div class="portfolio-links">
+                                <a href="https://mimpatna.com/" class="portfolio-link" onclick="showProjectDetails('College Website', 'A responsive website for a local college built with HTML, CSS, and JavaScript. Features include course listings, event calendar, and contact forms.')">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="https://mimpatna.com/" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-card">
+                        <img src="images/project3.png" alt="Portfolio Website">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Web Development</span>
+                            <h3>Face Attendence System</h3>
+                            <p>Biometric face attendance system for educational institutions</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" onclick="showProjectDetails('Face Attendance System', 'A biometric face attendance system designed for educational institutions. Features include real-time tracking, report generation, and integration with existing student management systems.')">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="data" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-card">
+                        <img src="images/data.png" alt="Financial Dashboard">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Data Analysis</span>
+                            <h3>Financial Dashboard</h3>
+                            <p>Real-time financial data visualization system</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" onclick="showProjectDetails('Financial Dashboard', 'A real-time financial dashboard using Python, SQL, and D3.js. Tracks stock prices, portfolio performance, and market trends.')">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ui" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <img src="images/ui1.png" alt="Mobile App Design">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">UI/UX Design</span>
+                            <h3>My Portfolio</h3>
+                            <p>My professional portfolio showcasing UI/UX design projects and case studies.</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" onclick="showProjectDetails('My Portfolio', 'A comprehensive showcase of my UI/UX design work, including case studies and design process documentation.')">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="data" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-card">
+                        <img src="images/data2.png" alt="Ai analysis">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Data analysis</span>
+                            <h3>AI Analysis</h3>
+                            <p>Machine learning models for predictive analytics and data-driven insights.</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" onclick="showProjectDetails('AI Analysis', 'Machine learning models for predictive analytics and data-driven insights.')">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                                <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-more" data-aos="fade-up">
+                <a href="#" class="btn btn-primary" onclick="showMoreProjects()">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Achievements</span>
+                <h2 class="section-title">My <span class="highlight">Certificates</span></h2>
+                <p class="section-desc">Professional certifications that validate my expertise and commitment to continuous learning.</p>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="0" onclick="openCertificateModal('cert1')">
+                    <div class="certificate-image">
+                        <img src="images/certificate1.png" alt="PW data analytics">
+                        <div class="certificate-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <span class="cert-badge">PW</span>
+                        <h3>PW Data Analytics Professional</h3>
+                        <p>Completed comprehensive data analytics training covering data cleaning, analysis, and visualization.</p>
+                        <div class="cert-meta">
+                            <span><i class="fas fa-calendar"></i> 2026</span>
+                            <span><i class="fas fa-clock"></i> 6 Months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="100" onclick="openCertificateModal('cert2')">
+                    <div class="certificate-image">
+                        <img src="images/certificate2.png" alt="coursera">
+                        <div class="certificate-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <span class="cert-badge">Coursera</span>
+                        <h3>Data anlaytics with excel</h3>
+                        <p>Advanced certification by Coursera covering data analysis techniques using Excel. Skills acquired: data cleaning, visualization, and statistical analysis.</p>
+                        <div class="cert-meta">
+                            <span><i class="fas fa-calendar"></i> 2026</span>
+                            <span><i class="fas fa-clock"></i> 2 Months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="200" onclick="openCertificateModal('cert3')">
+                    <div class="certificate-image">
+                        <img src="images/2_Modern_certificate_template_with.png" alt="AWS Cloud">
+                        <div class="certificate-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <span class="cert-badge">AWS</span>
+                        <h3>AWS Cloud Practitioner</h3>
+                        <p>Foundational cloud computing knowledge including AWS core services and cloud architecture.</p>
+                        <div class="cert-meta">
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                            <span><i class="fas fa-clock"></i> 3 Months</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="300" onclick="openCertificateModal('cert4')">
+                    <div class="certificate-image">
+                        <img src="images/certificate3.png" alt="Python Data Science">
+                        <div class="certificate-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <span class="cert-badge">Udemy</span>
+                        <h3>Python for Data Science</h3>
+                        <p>Comprehensive Python programming for data analysis, visualization, and machine learning.</p>
+                        <div class="cert-meta">
+                            <span><i class="fas fa-calendar"></i> 2026</span>
+                            <span><i class="fas fa-clock"></i> 4 Months</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Process Section -->
+    <section class="process">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">How I Work</span>
+                <h2 class="section-title">My Work <span class="highlight">Process</span></h2>
+            </div>
+            <div class="process-timeline">
+                <div class="process-item" data-aos="fade-up" data-aos-delay="0">
+                    <div class="process-number">01</div>
+                    <div class="process-icon"><i class="fas fa-search"></i></div>
+                    <h3>Research</h3>
+                    <p>Understanding requirements, analyzing competitors, and defining project scope.</p>
+                </div>
+                <div class="process-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="process-number">02</div>
+                    <div class="process-icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3>Design</h3>
+                    <p>Creating wireframes, prototypes, and visual designs with user-centric approach.</p>
+                </div>
+                <div class="process-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="process-number">03</div>
+                    <div class="process-icon"><i class="fas fa-code"></i></div>
+                    <h3>Develop</h3>
+                    <p>Writing clean, efficient code with modern technologies and best practices.</p>
+                </div>
+                <div class="process-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="process-number">04</div>
+                    <div class="process-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Launch</h3>
+                    <p>Testing, deployment, and continuous monitoring for optimal performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <!-- <section class="testimonials">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What Clients <span class="highlight">Say</span></h2>
+            </div>
+            <div class="testimonials-slider swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Manash delivered an exceptional website that exceeded our expectations. His attention to detail and technical expertise are remarkable. Highly recommended!"</p>
+                            <div class="testimonial-author">
+                                <img src="images/4_220_Developer_Headshot_Stock_Photos.png" alt="Client">
+                                <div class="author-info">
+                                    <h4>Rahul Sharma</h4>
+                                    <span>CEO, TechStart India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"The data analysis dashboard Manash built transformed how we make business decisions. His insights were invaluable and the visualization is stunning."</p>
+                            <div class="testimonial-author">
+                                <img src="images/4_220_Developer_Headshot_Stock_Photos.png" alt="Client">
+                                <div class="author-info">
+                                    <h4>Priya Patel</h4>
+                                    <span>Data Director, Analytics Pro</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="testimonial-text">"Working with Manash was a fantastic experience. He understood our vision perfectly and delivered a responsive, modern website on time."</p>
+                            <div class="testimonial-author">
+                                <img src="images/4_220_Developer_Headshot_Stock_Photos.png" alt="Client">
+                                <div class="author-info">
+                                    <h4>Amit Kumar</h4>
+                                    <span>Founder, Digital Solutions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Latest Articles</span>
+                <h2 class="section-title">My <span class="highlight">Blog</span></h2>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="0">
+                    <div class="blog-image">
+                        <img src="images/project1.png" alt="Blog 1">
+                        <span class="blog-category">Frontend</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> Jan 15, 2024</span>
+                            <span><i class="fas fa-comments"></i> 12 Comments</span>
+                        </div>
+                        <h3>Modern CSS Techniques Every Developer Should Know</h3>
+                        <p>Explore the latest CSS features including Grid, Flexbox, Container Queries, and CSS Variables for better web layouts.</p>
+                        <a href="#" class="blog-link" onclick="showBlogPost('Modern CSS Techniques', 'Explore the latest CSS features including Grid, Flexbox, Container Queries, and CSS Variables for better web layouts. These modern techniques allow for more responsive and maintainable designs.')">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="images/data.png" alt="Blog 2">
+                        <span class="blog-category">Data Analysis</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> Feb 20, 2024</span>
+                            <span><i class="fas fa-comments"></i> 8 Comments</span>
+                        </div>
+                        <h3>Building Interactive Dashboards with Python & Plotly</h3>
+                        <p>Learn how to create stunning interactive data visualizations using Python, Pandas, and Plotly Dash framework.</p>
+                        <a href="#" class="blog-link" onclick="showBlogPost('Building Interactive Dashboards', 'Learn how to create stunning interactive data visualizations using Python, Pandas, and Plotly Dash framework. This guide covers everything from data preparation to deployment.')">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <article class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="images/data2.png" alt="Blog 3">
+                        <span class="blog-category">Career</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> Mar 5, 2024</span>
+                            <span><i class="fas fa-comments"></i> 15 Comments</span>
+                        </div>
+                        <h3>From Frontend Developer to Data Analyst: My Journey</h3>
+                        <p>Sharing my experience transitioning from web development to data analysis and the skills that helped me succeed.</p>
+                        <a href="#" class="blog-link" onclick="showBlogPost('My Journey', 'Sharing my experience transitioning from web development to data analysis and the skills that helped me succeed. Learn about the transferable skills and new ones I had to acquire.')">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-container" data-aos="zoom-in">
+            <h2>Do you have a Project Idea?</h2>
+            <h3>Let's discuss your project!</h3>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Let's connect and build something amazing together.</p>
+            <a href="#contact" class="btn btn-white">
+                <span>Let's Work Together</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Get In Touch</span>
+                <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>I'm available for freelance projects, full-time positions, and consulting. Drop me a message and I'll get back to you within 24 hours.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div class="contact-detail">
+                                <h4>Phone / WhatsApp</h4>
+                                <a href="https://wa.me/918102498071" target="_blank">+91 81024 98071</a>
+                                <span class="whatsapp-badge"><i class="fab fa-whatsapp"></i> Click to Chat</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-detail">
+                                <h4>Email</h4>
+                                <a href="mailto:manash@example.com">manash804454@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-detail">
+                                <h4>Location</h4>
+                                <span>India(Bihar)</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                            <div class="contact-detail">
+                                <h4>Availability</h4>
+                                <span>Mon - Sat: 9:00 AM - 8:00 PM IST</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/manas8789-web" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/manash-kumar-1a4160352" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://wa.me/918102498071" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service">
+                                <option value="">Select Service</option>
+                                <option value="web">Web Development</option>
+                                <option value="data">Data Analysis</option>
+                                <option value="ui">UI/UX Design</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                    <div id="formSuccess" class="form-success" style="display:none;">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>Thank you for reaching out. I'll get back to you on WhatsApp shortly.</p>
+                        <a href="https://wa.me/918102498071?text=Hi%20Manash,%20I%20just%20sent%20you%20a%20message%20through%20your%20portfolio%20website!" target="_blank" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Continue on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">M</span>
+                        <span>Manash Kumar</span>
+                    </a>
+                    <p>Frontend Developer & Data Analyst crafting digital experiences and data-driven solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/manas8789-web" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/manash-kumar-1a4160352" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://wa.me/918102498071" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Data Analysis</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Database Management</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get the latest updates and tech insights.</p>
+                    <form id="newsletterForm" class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Manash Kumar. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeCertificateModal()">&times;</span>
+            <img id="modalImage" src="" alt="Certificate">
+            <div class="modal-info">
+                <h3 id="modalTitle">Certificate Title</h3>
+                <p id="modalDesc">Certificate description goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content project-modal-content">
+            <span class="modal-close" onclick="closeProjectModal()">&times;</span>
+            <h3 id="projectModalTitle">Project Title</h3>
+            <p id="projectModalDesc">Project description goes here.</p>
+            <div class="modal-actions">
+                <a href="#contact" class="btn btn-primary" onclick="closeProjectModal()">Discuss This Project</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Post Modal -->
+    <div id="blogModal" class="modal">
+        <div class="modal-content blog-modal-content">
+            <span class="modal-close" onclick="closeBlogModal()">&times;</span>
+            <h3 id="blogModalTitle">Blog Title</h3>
+            <p id="blogModalDesc">Blog content goes here.</p>
+            <div class="modal-actions">
+                <a href="#contact" class="btn btn-primary" onclick="closeBlogModal()">Share Your Thoughts</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
